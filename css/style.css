@@ -42,12 +42,18 @@ nav a{
     text-align:center;
 }
 
-.hero h1{
-    font-size:3rem;
+.hero h1 {
+    font-size: 3rem;
 }
 
-.hero p{
-    margin:20px 0;
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
 }
 
 .hero button{
