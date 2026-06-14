@@ -117,3 +117,32 @@ footer{
     text-align:center;
     padding:20px;
 }
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    .hero {
+        padding: 20px;
+        height: auto;
+        min-height: 60vh;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .jobs-section,
+    .workers-section {
+        padding: 40px 5%;
+    }
+
+}
