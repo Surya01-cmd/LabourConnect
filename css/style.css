@@ -75,10 +75,11 @@ nav a{
     margin-bottom:30px;
 }
 
-.job-container{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-    gap:20px;
+.job-container,
+.worker-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
 }
 
 .job-card{
