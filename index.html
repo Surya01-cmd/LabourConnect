@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LabourConnect</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">LabourConnect</div>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#jobs">Jobs</a></li>
+        <li><a href="#workers">Workers</a></li>
+        <li><a href="#contact">Contact</a></li>
+	<li><a href="login.html">Login/Register</a></li>
+
+    </ul>
+</nav>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Find Skilled Workers Instantly</h1>
+        <p>Connecting Contractors & Daily Wage Workers Across India</p>
+        <button onclick="showJobs()">Find Jobs</button>
+    </div>
+</section>
+
+<section id="jobs" class="jobs-section">
+    <h2>Available Jobs</h2>
+
+    <div class="job-container" id="jobContainer">
+    </div>
+</section>
+
+<section id="workers" class="workers-section">
+    <h2>Top Workers</h2>
+
+    <div class="worker-grid">
+        <div class="worker-card">
+            <h3>Ramesh</h3>
+            <p>Mason</p>
+        </div>
+
+        <div class="worker-card">
+            <h3>Suresh</h3>
+            <p>Electrician</p>
+        </div>
+
+        <div class="worker-card">
+            <h3>Mahesh</h3>
+            <p>Plumber</p>
+        </div>
+    </div>
+</section>
+
+<footer id="contact">
+    <p>© 2026 LabourConnect</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
