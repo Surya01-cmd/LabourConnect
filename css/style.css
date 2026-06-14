@@ -125,11 +125,13 @@ footer{
     nav {
         flex-direction: column;
         text-align: center;
+        background:#ff6b00;
     }
 
     nav ul {
         margin-top: 10px;
         justify-content: center;
+        background:#ff6b00;
     }
 
     .hero {
