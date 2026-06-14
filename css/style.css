@@ -9,19 +9,19 @@ body{
     background:#f4f4f4;
 }
 
-nav{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:20px 8%;
-    background:#ff6b00;
-    color:white;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    flex-wrap: wrap;
 }
 
-nav ul{
-    display:flex;
-    list-style:none;
-    gap:20px;
+nav ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    flex-wrap: wrap;
 }
 
 nav a{
